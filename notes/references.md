@@ -10,6 +10,7 @@
 
 ## papers
 
+http://adsabs.harvard.edu/abs/1987MNRAS.226..655B
 https://arxiv.org/abs/astro-ph/9809238
 https://arxiv.org/abs/1705.04454
 https://arxiv.org/abs/1207.6217
