@@ -1,4 +1,4 @@
-# References
+# Plan
 
 ## CMB data
 
@@ -6,7 +6,7 @@
 
 ## minkowski theory
 
-* what will we program?
+* statistics of spots after a cut-off
 
 ## papers
 
@@ -21,3 +21,32 @@ https://arxiv.org/abs/1608.07452
 * State of play - what accuracy do we need to achieve?
 * Methods to achieve this accuracy?
 * What tests will prove the code works?
+* How do we extract a statistical limit? In what cases can we do this?
+
+# Core software
+
+* Reproducible pipeline - Luigi? Sklearn?
+
+## Data extraction and processing
+
+* requirements - what preprocessing do we need to do?
+* Caroline?
+
+## MF calculation software
+
+* core calculations - what's the best language/library/way to do this reliably
+* DIY :)
+
+## Statistical analysis
+
+* is statsmodels good enough?
+* better statistical packages
+
+## Simulation
+
+* what do we need to simulate? 
+* core CMB + noise parameters + filtering software - before it goes into our preprocessing
+* what scale of simulation do we need to do ?
+* do we need to set this up for AWS Batch?
+
+
